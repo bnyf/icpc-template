@@ -20,6 +20,7 @@ void inst(long long a){
     }
     val[u]=a;
 }
+// 返回在01-trie 中能和 a 异或最大的数字
 long long query(long long a){
     int u=0;
     for(int i=32;i>=0;i--){

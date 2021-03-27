@@ -1,6 +1,6 @@
 #define N 10
 
-struct lset{
+struct LSET{
     int p[N], rank[N], sz;
     void link(int x, int y) {
         if (x == y) return;
